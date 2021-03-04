@@ -30,7 +30,7 @@ public:
 	void deleteLast();
 	//deleting first node
 	void deleteFirst();
-	//вывод элементов списка в пр€мом и обратном пор€дке
+	//print list items in forward and reverse order
 	void printDList();
 };
 
