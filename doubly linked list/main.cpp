@@ -23,7 +23,7 @@ int main() {
 
 		l.printDList();
 
-		cout << "Deletint last element" << endl;
+		cout << "Deleting last element" << endl;
 
 		l.deleteLast();
 
