@@ -7,7 +7,7 @@ int main() {
 
 	setlocale(LC_ALL, "Rus");
 	try {
-		cout << "Добавление элементов в конец двусвязного списока и его вывод" << endl;
+		cout << "Adding items to the end of a doubly linked list and displaying it" << endl;
 		DList<int> l;
 		l.pushToEnd(1);
 		l.pushToEnd(2);
@@ -16,20 +16,20 @@ int main() {
 
 		l.printDList();
 
-		cout << "Добавление элементов в начало двусвязного списока и его вывод" << endl;
+		cout << "Adding elements to the beginning of a doubly linked list and displaying it" << endl;
 
 		l.pushToFront(5);
 		l.pushToFront(6);
 
 		l.printDList();
 
-		cout << "Удаление последнего элемента" << endl;
+		cout << "Deletint last element" << endl;
 
 		l.deleteLast();
 
 		l.printDList();
 
-		cout << "Удаление первого элемента" << endl;
+		cout << "Deleting first element" << endl;
 
 		l.deleteFirst();
 
